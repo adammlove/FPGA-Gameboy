@@ -1,0 +1,249 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "add[0]",
+					"strict" : false
+				},
+				{
+					"name" : "add[1]",
+					"strict" : false
+				},
+				{
+					"name" : "add[2]",
+					"strict" : false
+				},
+				{
+					"name" : "add[3]",
+					"strict" : false
+				},
+				{
+					"name" : "add[4]",
+					"strict" : false
+				},
+				{
+					"name" : "add[5]",
+					"strict" : false
+				},
+				{
+					"name" : "add[6]",
+					"strict" : false
+				},
+				{
+					"name" : "add[7]",
+					"strict" : false
+				},
+				{
+					"name" : "add[8]",
+					"strict" : false
+				},
+				{
+					"name" : "add[9]",
+					"strict" : false
+				},
+				{
+					"name" : "add[10]",
+					"strict" : false
+				},
+				{
+					"name" : "add[11]",
+					"strict" : false
+				},
+				{
+					"name" : "add[12]",
+					"strict" : false
+				},
+				{
+					"name" : "add[13]",
+					"strict" : false
+				},
+				{
+					"name" : "add[14]",
+					"strict" : false
+				},
+				{
+					"name" : "add[15]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[15]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[10]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[11]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[12]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[13]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[14]",
+					"strict" : false
+				},
+				{
+					"name" : "CI[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pllClk",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

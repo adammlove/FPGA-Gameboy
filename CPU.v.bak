@@ -1,0 +1,328 @@
+module Gameboy(
+
+input wire clk,
+
+output reg write,		//pin 3
+output read,		//pin 4
+output chip,		//pin 5
+
+inout reg [23:0] add,		//address pins
+
+output wire SRAM,		//pin 30
+
+input wire REQ			//pin 31
+
+
+);
+
+always @ (posedge clk)
+	case(add[23:16])//read opcode
+	
+	2'h0x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 0x
+	2'h1x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 1x
+	2'h2x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 2x
+	2'h3x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 3x
+	2'h4x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 4x
+	2'h5x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 5x
+	2'h6x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 6x
+	2'h7x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 7x
+	2'h8x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 8x
+	2'h9x:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for 9x
+	2'hax:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for ax
+	2'hbx:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for bx
+	2'hcx:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for cx
+	2'hdx:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for dx
+	2'hex:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for ex
+	2'hfx:case(add[23:16]);
+		2'hx0:;
+		2'hx1:;
+		2'hx2:;
+		2'hx3:;
+		2'hx4:;
+		2'hx5:;
+		2'hx6:;
+		2'hx7:;
+		2'hx8:;
+		2'hx9:;
+		2'hxa:;
+		2'hxb:;
+		2'hxc:;
+		2'hxd:;
+		2'hxe:;
+		2'hxf:;
+		
+		endcase //for fx
+		
+	endcase
+
+endmodule

@@ -1,0 +1,23 @@
+module inputs(
+
+output wire write,	//pin 3
+output wire read,		//pin 4
+output wire chip,		//pin 5
+input wire add0		//address pin 0
+input wire add1		//address pin 1
+input wire add2		//address pin 2
+input wire add3		//address pin 3
+input wire add4		//address pin 4
+input wire add5		//address pin 5
+input wire add6		//address pin 6
+input wire add7		//address pin 7
+input wire add8		//address pin 8
+input wire add9		//address pin 9
+input wire add10		//address pin 10
+input wire add11		//address pin 11
+input wire add12		//address pin 12
+input wire add13		//address pin 13
+input wire add14		//address pin 14
+input wire add15		//address pin 15
+
+);
