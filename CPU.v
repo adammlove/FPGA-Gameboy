@@ -8,7 +8,7 @@ output test_cpu,
 
 output wire VCC,	//5V
 
-output wire clock,	//
+output wire clock,	//pin 2
 
 output write = 1'b0,		//pin 3
 output read = 1'b1,		//pin 4
