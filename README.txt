@@ -3,3 +3,5 @@
 I initially got the idea to start this project at the end of my junior year of HS. I began working on this project during my senior year of high school using a Terasic DE-10 Nano FPGA and the Quartus II lite software. The original plan was to have something working by the end of my senior year, but since COVID-19 screwed everything up I'm not going to work as hard to meet that deadline and give myself unnecessary additional stress. For now this project is something I will work on in my spare time whenever I decide to sit down and work on it. Maybe I can have something working by the end of the summer unless I decide to get really productive at some point.
 
 4/24/2020 UPDATE: I decided that since I'm still going to need to do some kind of engineering project for the rest of the year, I should just continue to work on this one.
+
+5/16/2021 UPDATE: I completely forgot about this project LOL
